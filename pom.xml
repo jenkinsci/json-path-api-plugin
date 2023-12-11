@@ -32,6 +32,7 @@
     <jenkins.version>2.401.3</jenkins.version>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     <spotless.check.skip>false</spotless.check.skip>
+    <json-smart.version>2.5.0</json-smart.version>
   </properties>
 
   <dependencyManagement>
@@ -42,6 +43,21 @@
         <version>2641.v88e707466454</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>net.minidev</groupId>
+        <artifactId>accessors-smart</artifactId>
+        <version>${json-smart.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.minidev</groupId>
+        <artifactId>json-smart</artifactId>
+        <version>${json-smart.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.minidev</groupId>
+        <artifactId>json-smart-action</artifactId>
+        <version>${json-smart.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
