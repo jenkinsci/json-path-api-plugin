@@ -32,7 +32,7 @@
     <jenkins.version>2.426.3</jenkins.version>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     <spotless.check.skip>false</spotless.check.skip>
-    <json-smart.version>2.5.0</json-smart.version>
+    <json-smart.version>2.5.1</json-smart.version>
   </properties>
 
   <dependencyManagement>
