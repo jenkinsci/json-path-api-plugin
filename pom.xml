@@ -45,21 +45,6 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-      <dependency>
-        <groupId>net.minidev</groupId>
-        <artifactId>accessors-smart</artifactId>
-        <version>${json-smart.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>net.minidev</groupId>
-        <artifactId>json-smart</artifactId>
-        <version>${json-smart.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>net.minidev</groupId>
-        <artifactId>json-smart-action</artifactId>
-        <version>${json-smart.version}</version>
-      </dependency>
     </dependencies>
   </dependencyManagement>
   <dependencies>
@@ -99,6 +84,21 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>asm-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>accessors-smart</artifactId>
+      <version>${json-smart.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>json-smart</artifactId>
+      <version>${json-smart.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>json-smart-action</artifactId>
+      <version>${json-smart.version}</version>
     </dependency>
   </dependencies>
   <repositories>
