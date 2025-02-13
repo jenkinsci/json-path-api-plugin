@@ -33,7 +33,7 @@
     <jenkins.version>${jenkins.baseline}.1</jenkins.version>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     <spotless.check.skip>false</spotless.check.skip>
-    <json-smart.version>2.5.1</json-smart.version>
+    <json-smart.version>2.5.2</json-smart.version>
   </properties>
 
   <dependencyManagement>
