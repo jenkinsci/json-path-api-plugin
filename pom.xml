@@ -35,6 +35,8 @@
     <spotless.check.skip>false</spotless.check.skip>
     <json-smart.version>2.5.2</json-smart.version>
     <ban-junit4-imports.skip>false</ban-junit4-imports.skip>
+    <hpi.bundledArtifacts>accessors-smart,json-path,json-smart,json-smart-action</hpi.bundledArtifacts>
+    <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
   </properties>
 
   <dependencyManagement>
